@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+        url('../fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* header */
+.header-menu {
+    background: #F6F6F6;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-left {
+    margin: 30px 0;
+}
+
+.header-a {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #7F7F7F;
+}
+
+.header-h1 {
+    padding: 8px 6px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7296EE;
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.left-span-1 {
+    margin: 0 25px 0 35px;
+}
+
+.span-1-span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+}
+
+.span-2-span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+}
+
+.top-right-input {
+    padding: 15px 192px 13px 41px;
+    background: #FFFFFF;
+    border-radius: 60px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8D8D8D;
+}
+
+.header-right-bnt1 {
+    padding: 10px 10px;
+    margin: 0 25px;
+    background: #DCE6FF;
+    border-radius: 39px;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.header-right-btn2 {
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #7296EC;
+    border-radius: 10px;
+    border: none;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+/* section */
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-right-text {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5F61;
+}
+
+.text-top-h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.tesla-img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.text {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.text-finish {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    ;
+}
+
+/* aside */
+
+.aside-div {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.aside-div1-h4 {
+    width: 96px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding: 20px 280px 0 17px;
+    margin-bottom: 25px;
+}
+
+.aside-div1-h5 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 17px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.div1-span {
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+    padding-right: 150px;
+    margin: 0 17px;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.div4-span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+    padding-right: 200px;
+    margin-left: 17px;
+    padding-bottom: 25px;
+}
+
+.aside-reklama {
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+/* section */
+
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.bottom-card-child {
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+
+.bottom-card-h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card-child-h4 {
+    padding: 20px 18px 10px 17px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.card-child-text {
+    padding: 0 23px 0 17px;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+.child-icon-2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.card-child-icon{
+    padding-left: 17px;
+}
+
+.child-icon-right{
+    margin-left: 10px;
+}
+
+/* footer */
+
+.footer {
+    background: #7297EF;
+    margin-top: 100px;
+}
+
+.container-2{
+    width: 998px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-info {
+    display: flex;
+}
+
+.footer-h4 {
+    width: 264px;
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-paragraph {
+    margin: 15px 203px 71px 0;
+    width: 229px;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-ul {
+    margin: 15px 100px 30px 0;
+}
+
+.footer-li {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-ul-2 {
+    margin-top: 15px;
+}
+
+.footer-h5-wrapper{
+    border-top: 1px solid #CECECE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-h5 {
+    display: inline-block;
+    width: 161px;
+    padding-top: 21px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.h5-wrapper-link{
+    padding-top: 31px;
+}
+
+.footer-icon-wrapper{
+    margin-top: 31px;
+}
+.facebook-icon{
+    margin-right: 25px;
+}
+.instagram-icon{
+    margin-right: 25px;
+}
+.telegram-icon{
+    margin-right: 25px;
+}
